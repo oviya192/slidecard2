@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    }
+ .Section_top{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(india-top-attractions-taj-mahal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: change 10s infinite ease-in-out ;
+ }
+ .content{
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    text-transform: uppercase;
+ }
+ .content h1{
+    font-size: 50px;
+    letter-spacing: 10px;
+    color: black;
+ }
+ span{
+    color: black;
+ }
+
+ .log{
+   margin-top: 15px;
+    background: brown;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+    border-style: none;
+    border-color: brown;
+    color: aliceblue;
+    
+ }
+ .content .log:hover{
+    background: white;
+    color: brown;
+ }
+ @keyframes change{
+    0%{
+       background-image: url(india-top-attractions-taj-mahal.jpg);
+    }
+    20%{
+       background-image: url(Resized-thiruvalluvar-statue.jpg);
+    }
+    40%{
+       background-image: url(bigtemple.jpg);
+    }
+    60%{
+       background-image: url(gateway.jpg);
+    }
+    80%{
+       background-image: url(kerala.webp);
+    }
+    100%{
+      background-image: url(Hawa-Mahal.jpg);
+   }
+
+ }
